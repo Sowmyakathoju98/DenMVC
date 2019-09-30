@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+
+.Container {
+	background-color: wheat;
+	height: 100%
+}
+
+.header {
+	border-style: solid;
+	border-color: black;
+	height: 150px;
+	width: 100%;
+	background-color: #e6e5be;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-weight: bolder;
+	font-size: 40px;
+	font-family: cursive;
+	text-shadow: aqua;
+}
+
+h3 {
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+}
+
+h4 {
+	padding-top: 0%;
+	margin-top: -50px;
+	float: right;
+	font-size: 20px;
+}
+
+.subHeader {
+	padding-top: 15px;
+	background-color: blue;
+	height: 40px;
+	font-size: 18px;
+	widows: 100%;
+}
+
+.subHeader a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 40px;
+}
+
+.subHeader a:hover {
+	color: rgb(180, 207, 25);
+	transition: all .7s ease;
+}
+
+.subHeader #aa {
+	padding-left: 50%;
+}
+
+#search {
+	width: 650px;
+	padding-top: 10px;
+	margin-top: 22px;
+	margin-left: 20px;
+}
+
+.searchtext {
+	width: 500px;
+	height: 40px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	padding-left: 15px;
+}
+
+.searchButton {
+	width: 60px;
+	height: 40px;
+	background: brown;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	margin-left: 0px;
+}
+
+#products {
+	padding-top: 10px;
+	margin-top: 20px;
+}
+/* payment */
+#payment {
+	background-image:
+		'http://5b0988e595225.cdn.sohucs.com/images/20190520/fb8f899ad6b741dcb1940d87879120fc.jpeg'
+}
+/*Footer*/
+#subFooter {
+	height: 40px;
+	width: 100%;
+	background-color: aqua;
+	text-align: center;
+}
+
+#subFooter a {
+	text-decoration: none;
+	margin-top: 20px;
+	font-size: 20px;
+	color: lime;
+}
+
+#subFooter a:hover {
+	color: blue;
+}
+#subFooterContainer{
+position: relative;
+
+}
+#footer {
+	height: 200px;
+	width: 100%;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+}
